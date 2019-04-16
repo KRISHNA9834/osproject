@@ -44,7 +44,7 @@ void main()
    turnaround[smallest] = end - arrive[smallest];
   }
  }
- 
+ system("cls");
  printf("_________________________________________________________________________________________\n");
  printf("|  pid\t | burst| arrival|\t waiting\t|\tturnaround\t| completion\t|\n");
  printf("|________|______|________|______________________|_______________________|_______________|\n");
@@ -55,6 +55,8 @@ void main()
    tt = tt + turnaround[i];
  }
   printf("\n|________|______|________|______________________|_______________________|_______________|\n");
+  printf("Press enter to get the average turnaround time and average waiting time:\n");
+  getch();
  printf("\n\nAverage waiting time = %lf\n",avg/n);
  printf("Average Turnaround time = %lf",tt/n);
  getch();
