@@ -179,9 +179,9 @@ void main()
 			default:
 				{
 					printf("Invaild request press t to re-enter else press any key to exit.\n");
-					//scanf("%c\n",&ch);
+					
 					break;
 				}
 		}
-	//}
+	
 }
