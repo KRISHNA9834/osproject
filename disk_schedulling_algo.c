@@ -90,7 +90,6 @@ void main()
                     printf("\n Moves from %d -->> %d with the difference of %d\n",queue[j],queue[j+1],difference);
             	}
             	printf("Total distance (in cylinders) that the disk arm moves to satisfy all the pending requests is:%d\n",distance);
-            	//printf("\npress t to check result for another value:");
 				//scanf("%c\n",&ch);
 				//system("cls");
 				break;
